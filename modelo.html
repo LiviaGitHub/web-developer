@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Curso HTML5, CSS3, JavaScript</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+	<form method="post" action="form.php">
+		<div class ="form-group">
+			<label for="nome">Nome</label>
+			<input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome" required>
+		</div>
+
+		<div class ="form-group">
+			<label for="email">E-mail</label>
+			<input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email" required>
+		</div>
+
+		<div class ="form-group">
+			<label for="nascimento">Nascimento</label>
+			<input type="date" name="nascimento" id="nascimento" class="form-control" placeholder="Digite seu nascimento" required 
+				min="1900-01-01" max="2016-01-01">
+		</div>
+
+		<div>
+			<button type="submit" class="btn btn-primary">Register</button>
+		</div>
+	</form>
+</body>
+</html>
