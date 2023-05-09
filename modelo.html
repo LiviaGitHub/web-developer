@@ -38,6 +38,35 @@
 			<input type="checkbox" name="li" id="li" placeholder="Digite seu email" required checked>
 		</div>
 
+		<div class ="form-group">
+			<label for="ano">Ano</label>
+			<input type="number" name="ano" id="ano" min="1900" max="20116" required>
+		</div>
+
+		<div class ="form-group">
+			<label for="cor">Cor</label>
+			<input type="color" name="cor" id="cor">
+		</div>
+
+		<div class ="form-group">
+			<label for="url">Url</label>
+			<input type="url" name="url" id="url" class="form-control">
+		</div>
+
+		<div class ="form-group">
+			<label for="search">Search</label>
+			<input type="search" name="search" id="search" class="form-control">
+		</div>
+		
+		<div class ="form-group">
+			<label for="estados">Estados</label>
+			<select name="estados" id="estados">
+					<option value="RJ">Rio de Janeiro</option>
+					<option value="SP">Sao Paulo</option>
+					<option value="BR" selected>Berlin</option>
+			</select>
+		</div>
+
 		<div>
 			<button type="submit" class="btn btn-primary">Register</button>
 		</div>
